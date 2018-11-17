@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Media Downloader</string>
+    <string name="check_button_label">Check</string>
+    <string name="quality_text">Quality: %1$s</string>
+    <string name="size_text">File size: %1$d MB</string>
+    <string name="error_msg">An error has occurred. Please make sure you have internet access</string>
+</resources>
