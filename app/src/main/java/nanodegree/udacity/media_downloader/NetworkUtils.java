@@ -54,8 +54,6 @@ public class NetworkUtils {
         List<Download> downloads = new ArrayList<>();
         try {
             JSONObject responseJSONObject = new JSONObject(JsonResponse);
-            //sb.append("Title: " + responseJSONObject.get("title"));
-            //sb.append("Description: " + responseJSONObject.get("description"));
             if (responseJSONObject.has("formats")) {
                 JSONArray formatsArray = responseJSONObject.getJSONArray("formats");
                 for (int i = 0; i < formatsArray.length(); i++) {
